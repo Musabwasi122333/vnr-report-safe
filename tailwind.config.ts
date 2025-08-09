@@ -17,8 +17,11 @@ export default {
 				'2xl': '1400px'
 			}
 		},
-		extend: {
-			colors: {
+			extend: {
+				fontFamily: {
+					sans: ['Inter','ui-sans-serif','system-ui','-apple-system','Segoe UI','Roboto','Ubuntu','Cantarell','Noto Sans','Helvetica Neue','Arial','Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol']
+				},
+				colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
